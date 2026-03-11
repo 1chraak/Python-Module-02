@@ -35,7 +35,7 @@ def test_error_types() -> None:
 
     print("Testing multiple errors together...")
     try:
-        int("yassir")
+        int("Ichrak")
         10 / 0  # type:ignore
     except (ValueError, ZeroDivisionError):
         print("Caught an error, but program continues!")
